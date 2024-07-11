@@ -1,0 +1,83 @@
+h1{
+    color: beige;
+    background-color: #3d251e;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    width: 390px;
+    margin-left: 25%;
+    text-align: center;
+}
+body{
+    background-color: #765341;
+}
+a{
+    margin-left: 10px;
+    
+    color: beige;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+nav{
+    background-color: #3d251e;
+    height: 50px;
+    margin: auto;
+}
+ul{
+list-style: none;
+float: left;
+text-align: center;
+vertical-align: center;
+align-items: center;
+height: 50px;
+}
+nav li{
+    display: inline;
+    
+    height: 50px;
+  
+}
+.search{
+    margin-top: 9px;
+    margin-left: 50%;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: beige;
+    color: black;
+}
+.hola{
+    height: 190px;
+    margin: auto;
+    width: 700px;
+    background-color: #3d251e;
+    border-radius: 22% 0% 22% 0%;
+   
+}
+ .hola img{
+    margin-top: 50px;
+    margin-left: -1%;
+    height: 72%;
+    width: 20%;
+    position: relative;
+    border-radius: 100% 100% 100% 100%;
+    display: block;
+    
+}
+.hola img:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(360deg);
+}
+.user{
+    margin-top: -100px;
+    width: 35%;
+    margin-left: 40%;
+
+}
+
+
+.info{
+    color: beige;
+    margin-left: 25%;
+    margin-top: -20%;
+}
